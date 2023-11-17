@@ -1,0 +1,28 @@
+#root{
+    max-width: 800px;
+    margin:auto
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(4,300px);
+
+    /* grid-template-rows:repeat(auto-fill,300px) */
+    grid-auto-rows: 300px;
+    /* align-items: center; */
+}
+
+.card{
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 1fr auto auto;
+    gap:15px
+}
